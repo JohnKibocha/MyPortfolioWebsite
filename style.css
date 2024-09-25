@@ -1,0 +1,160 @@
+body {
+    background-color: #0F0F1A;
+    color: #EAEAEA;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 1000px; /* Reduced width to allow proper margins */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    width: 980px;
+    background-color: #1B1B2A;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #F6F5F5;
+    text-decoration: none;
+    background-color: #4E4E6D;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+nav a:hover {
+    background-color: #F6F5F5;
+    color: #1B1B2A;
+}
+
+#profile-skill-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+#img-area {
+    text-align: center;
+    background-color: #4E4E6D;
+    padding: 20px;
+    width: 250px;
+}
+
+#img-area img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #F6F5F5;
+}
+
+#img-area h5 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#skill {
+    width: 800px;
+    padding: 20px;
+    height: 190px;
+    background-color: #1B1B2A;
+    margin-left: 20px; /* Adds spacing between the profile photo and skill set */
+}
+
+#skill h4 {
+    text-align: center;
+}
+
+#skill ul {
+    text-align: left;
+}
+
+#experience, #projects, #certification, #internship, #contacts {
+    padding: 20px;
+    background-color: #1B1B2A;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#experience h4, #projects h4, #certification h4, #internship h4, #contacts h4 {
+    text-align: center;
+}
+
+#projects {
+    background-color: #2C2C3E;
+    text-align: center;
+}
+
+.project {
+    background-color: #1B1B2A;
+    border: 1px solid #4E4E6D;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: #EAEAEA;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    vertical-align: top; /* Aligns the cards properly */
+}
+
+.project h4 {
+    margin: 10px 0;
+}
+
+.project-icon {
+    width: 80px;
+    height: 50px;
+}
+
+#contacts {
+    text-align: center;
+}
+
+.contact-icons a {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Added styles for certification and internship container */
+#certification-internship-container {
+    width: 1000px;
+    margin-top: 20px;
+    background-color: #1B1B2A;
+    overflow: hidden; /* Ensures both divs are contained in the same row */
+}
+
+#certification, #internship {
+    float: left;
+    width: 500px; /* Each section will take exactly half the container width */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#certification h4, #internship h4 {
+    text-align: center;
+}
+
+.small-icon {
+    width: 80px; /* Adjust the size of the 'Click Here' icons */
+    height: 30px;
+    display: inline-block;
+    margin-top: 5px;
+}
